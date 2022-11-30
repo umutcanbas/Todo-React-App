@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Footer({data, clearTodos , changeFilter, filter}) {
+function Footer({data, clearTodos , changeFilter, filter}) { 
 
   const count = data.filter((item) => item.status === false).length
   return (
